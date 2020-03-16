@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js">
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Application Form</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="description">
+        Apply Online
+      </h1>
+      <p>Ready to take the next step toward achieving your goals? Please fill out the application below and we will contact you about the next steps in your admissions process</p>
+      <form>
+        <div class="column1">
+          <div class="field">
+            <label><span class="asterisk">*</span>First Name</label><br />
+            <input type="text" id="fname" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Gender</label><br />
+            <select id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Country</label><br />
+            <select id="country">
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Passowrd</label><br />
+            <input type="password" id="pass" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>City</label><br />
+            <input type="text" id="city" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Email</label><br />
+            <input type="text" id="email" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Level of Previous Education</label><br />
+            <input type="text" id="prevedu" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Preferred Campus</label><br />
+            <select id="prefcampus">
+              <option value="progress">Progress</option>
+              <option value="story">Story Arts Centre</option>
+              <option value="downsview">Downsview</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>How did you hear about us?</label><br />
+            <input type="text" id="hearus"/>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="field">
+            <label><span class="asterisk">*</span>Last Name</label><br />
+            <input type="text" id="lname" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Street Address</label><br />
+            <input type="text" id="streetadd" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Postal Code</label><br />
+            <input type="text" id="postalcode" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Confirm Passowrd</label><br />
+            <input type="password" id="confirmpass" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Province</label><br />
+            <input type="text" id="province" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Phone Number</label><br />
+            <input type="text" id="phoneno" required/>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Are you currently working?</label><br />
+            <select id="working">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label><span class="asterisk">*</span>Program of interest</label><br />
+            <select id="poi">
+              <option value="genedu">General Education</option>
+              <option value="swe">Software Engineering</option>
+              <option value="mkt">Marketing</option>
+              <option value="meche">Mechanical Engineering</option>
+              <option value="ash">Ashtonbee</option>
+              <option value="automech">Auto Mechanics </option>
+              <option value="childedu">Early Childhood Education</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <button type="button" id="btn">APPLY</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body{padding: 0;
+margin: 0;
+height: 100vh;
+width: 100%;
+font-family: 'Open Sans';
+background-color: #2e3137;}
+
+.main{height: 100%;
+width: 80%;
+padding-right: 10%;
+padding-left: 10%;
+}
+
+.description,p,label{
+  color: #9DABA4;
+}
+
+.asterisk{color: #FAFAFA;}
+
+input,select{background-color: #545965;
+color: #FAFAFA;
+border: none;}
+
+.description{font-family: 'Proza Libre';}
+
+form{width: 50%;
+margin: 0 auto;
+background-color: #22262b;
+padding: 5%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+button{background-color: #66c5e5;
+color: #FAFAFA;
+border: none;
+border-radius: 5px;
+margin-top: 5%;
+padding: 3%;
+cursor: pointer;}
